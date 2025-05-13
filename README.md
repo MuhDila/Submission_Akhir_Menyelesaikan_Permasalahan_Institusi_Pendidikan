@@ -115,6 +115,14 @@ Aplikasi ini dapat dijalankan secara lokal dengan perintah:
   streamlit run app.py
 ```
 
+
+### Akses Aplikasi Online
+
+Aplikasi ini juga dapat diakses secara online melalui Streamlit Community Cloud:
+
+🔗 [Link Streamlit Community Cloud](https://muhdila-submission-akhir-menyelesaikan-permasalahan--app-6fgsnf.streamlit.app/)
+
+
 ---
 
 # Business Dashboard
