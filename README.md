@@ -51,14 +51,35 @@ Agar seluruh proses analisis, prediksi, dan visualisasi berjalan dengan lancar, 
 
 ---
 
-#### 1. **Menjalankan `notebook.ipynb`**
+#### Setup Environment dengan Anaconda
+
+```bash
+    conda create --name main-ds python=3.9
+    conda activate main-ds
+    pip install -r requirements.txt
+```
+
+---
+
+#### Setup Environment dengan pipenv (Shell/Terminal)
+
+```bash
+    pip install pipenv
+    pipenv install
+    pipenv shell
+    pip install -r requirements.txt
+```
+
+---
+
+#### **Menjalankan `notebook.ipynb`**
 - Pastikan seluruh **library dan dependensi** yang diperlukan telah terinstal (cek file `requirements.txt`).
 - Notebook ini dapat dibuka di Google Colab, JupyterLab, atau IDE lokal seperti VSCode.
 - Jalankan sel secara berurutan untuk melakukan data exploration, preprocessing, feature selection, modeling, dan evaluasi.
 
 ---
 
-#### 2. **Menjalankan `app.py` (Streamlit App)**
+#### **Menjalankan `app.py` (Streamlit App)**
 - Script ini berfungsi sebagai **interface interaktif** untuk memprediksi status mahasiswa berdasarkan input fitur akademik dan sosial.
 - Jalankan dari terminal dengan perintah berikut:
   ```bash
@@ -68,7 +89,7 @@ Agar seluruh proses analisis, prediksi, dan visualisasi berjalan dengan lancar, 
 
 ---
 
-#### **3. Menjalankan Dashboard**
+#### **Menjalankan Dashboard**
 Untuk melihat **dashboard** secara langsung, Anda dapat menggunakan **Metabase** dengan bantuan **Docker**. Pastikan **Docker** telah terpasang di sistem Anda.
 
 **Langkah-langkah untuk menjalankan Metabase menggunakan Docker**:
